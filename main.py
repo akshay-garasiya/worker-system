@@ -1,4 +1,4 @@
-import pandas as ps
+
 import mysql.connector
 
 conn=mysql.connector.connect(
@@ -7,8 +7,6 @@ conn=mysql.connector.connect(
     password="123",
     database="collage"
 )
-
-
 
 cursor=conn.cursor()
 
